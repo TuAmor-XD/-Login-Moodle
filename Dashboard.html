@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dashboard">
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="top-left">
+    <span class="brand">BMHS</span>
+    <span class="nav-link active">Dashboard</span>
+    <span class="nav-link">Courses</span>
+    <span class="nav-link">Grades</span>
+  </div>
+
+  <div class="top-right">
+    <span class="user">Welcome, Student</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header-bar">
+  Student Dashboard
+</div>
+
+<!-- THEME TOGGLE -->
+<div class="theme-toggle" onclick="toggleTheme()">
+  Toggle Theme
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+
+  <div class="welcome">Welcome back 👋</div>
+
+  <div class="grid">
+
+    <!-- LEFT BIG SECTION -->
+    <div class="card large">
+      <div class="card-header">Courses</div>
+      <div class="card-body">
+        <p class="empty">View your enrolled subjects</p>
+      </div>
+    </div>
+
+    <!-- RIGHT SMALL -->
+    <div class="card small">
+      <div class="card-header">Assignments</div>
+      <div class="card-body">
+        <p class="empty">Check pending work</p>
+      </div>
+    </div>
+
+    <!-- RIGHT SMALL -->
+    <div class="card small">
+      <div class="card-header">Grades</div>
+      <div class="card-body">
+        <p class="empty">See your performance</p>
+      </div>
+    </div>
+
+    <!-- FULL WIDTH -->
+    <div class="card full">
+      <div class="card-header">Announcements</div>
+      <div class="card-body">
+        <p class="empty">Latest school updates will appear here</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
